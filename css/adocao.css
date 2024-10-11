@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+ /* Estilos do filtro */
+ .filter-toggle {
+    display: flex;
+    margin: 10px 0;
+    text-align: start;
+}
+
+#toggle-filter {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#toggle-filter:hover {
+    background-color: #0056b3;
+}
+
+.filter-section {
+    display: none;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.filter-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-section label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.filter-section input,
+.filter-section select {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.filter-section button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.filter-section button:hover {
+    background-color: #0056b3;
+}
+
+.Linha {
+    height: 1rem;
+    width: 100%; /* Ajuste para a linha ser flexível */
+    margin: 1rem 0;
+    height: 0.3rem;
+    border-radius: 20px;
+    background-color: #86bcc6;
+}
+
+/* Card */
+
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px; /* Limita a largura total do container */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 20px; /* Adiciona um pouco de padding ao container */
+}
+
+.card {
+    width: 250px; /* Ajuste do tamanho do card */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 15px;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Imagem do Pet */
+.card img {
+    width: 100%;
+    max-height: 150px; 
+    border-radius: 8px;
+    object-fit: cover; 
+}
+
+/* Título e Parágrafos */
+.card h2 {
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+/* Estilo do botão de cadastrar animal */
+
+.container-btn {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.btn-cadastrar-animal {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25717e;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-cadastrar-animal:hover {
+    background-color: #1f5f6b;
+    transform: scale(1.05);
+}
+
+.btn-cadastrar-animal:active {
+    background-color: #1a4d59;
+    transform: scale(0.95);
+}
+
+.btn-pets {
+    display: flex;
+    margin: 0 0 0 auto;
+    padding: 10px 20px;
+    background-color: #25717e;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-pets:hover {
+    background-color: #1f5f6b;
+    transform: scale(1.05);
+}
+
+.btn-pets:active {
+    background-color: #1a4d59;
+    transform: scale(0.95);
+}

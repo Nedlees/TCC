@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside {
+    width: 20px;
+    border-radius: 20px;
+    color: #86bcc8;
+}
+
+.detalhes-pet-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.detalhes-pet {
+    height: auto;
+    width: 65%;
+}
+
+.detalhes-pet a {
+    align-items: center;
+    text-decoration: none;
+}
+
+.detalhes-pet img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+/*Outros Pets*/
+
+.outros-pets {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.outro-pet {
+    flex: 0 1 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.outro-pet img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.outros-pets a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s;
+    max-width: 150px;
+}
+
+.outros-pets a:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button, .btn-remover, .btn-atualizar {
+    width: 95%;
+    display: block;
+    margin: 25px 0;
+    border-radius: 20px;
+    background-color: #25717e; 
+    color: #fff; 
+    border: none;
+    padding: 5px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.btn-atualizar {
+    display: inline-block; 
+    width: 50%;
+    margin: 25px 0;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #25717e;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-atualizar:hover {
+    background-color: #1e575f;
+}
+
+.btn-curtir {
+    display: inline-block; 
+    width: 10%;
+    margin: 20px 0 10px 0;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #25717e;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.Linha {
+    height: 1rem;
+    width: 100%; /* Ajuste para a linha ser flexível */
+    margin: 1rem 0;
+    height: 0.3rem;
+    border-radius: 20px;
+    background-color: #86bcc6;
+}
+
+@media (max-width: 768px) {
+    .detalhes-pet-container {
+        padding: 10px; /* Menos padding em telas pequenas */
+    }
+
+    .detalhes-pet {
+        width: 100%; /* Largura total em telas pequenas */
+    }
+
+    .outros-pets {
+        width: 100%; /* Largura total para a seção de outros pets */
+        flex-direction: row; /* Permite que os pets sejam exibidos em linha */
+        justify-content: center; /* Centraliza os outros pets */
+    }
+
+    .outro-pet {
+        flex: 0 1 100px; /* Largura flexível para cards menores */
+        margin: 5px; /* Reduz a margem */
+    }
+
+    button, .btn-remover, .btn-atualizar {
+        width: 90%; /* Botões com largura menor em telas pequenas */
+        font-size: 0.9em; /* Reduz o tamanho da fonte dos botões */
+    }
+}
+
+/* Ajustes para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .detalhes-pet {
+        width: 80%; /* Largura média em tablets */
+    }
+
+    .outros-pets {
+        width: 80%; /* Largura média para a seção de outros pets */
+        flex-wrap: wrap; /* Permite que os pets sejam exibidos em múltiplas linhas */
+    }
+
+    .outro-pet {
+        flex: 0 1 120px; /* Largura flexível para cards em tablets */
+    }
+}
+
+/* Ajustes para desktops */
+@media (min-width: 1025px) {
+    .detalhes-pet-container {
+        flex-direction: row; /* Mantém os itens lado a lado em desktops */
+    }
+
+    .detalhes-pet {
+        width: 65%; /* Largura maior em desktops */
+    }
+
+    .outros-pets {
+        width: 20%; /* Seção de outros pets ocupa 30% da tela em desktops */
+    }
+}

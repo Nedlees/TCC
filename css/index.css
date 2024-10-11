@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-frase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.gatinho {
+    text-align: center;
+}
+
+.gatinho img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+    
+}
+
+.Frase p {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #86BCC6;
+}
+.Frase{
+    display: flex;
+}
+.Cor {
+    color: #25717e;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Disponíveis para Adoção */
+
+.adocao {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.adocao h1 {
+    color: #25717e;
+    font-size: 60px;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.adocao p {
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.animais {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.animal {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 23%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-animal img {
+    width: 100%;
+    height: auto;
+}
+
+.info-animal {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info-animal h2 {
+    font-size: 1.2em;
+    color: #6ca6b0;
+    margin: 10px 0;
+    font-family: "josefin sans";
+}
+
+.info-animal p {
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.info-animal button {
+    background-color: #25717e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    text-decoration: none;
+}
+
+.info-animal button:hover {
+    background-color: black;
+}
+
+.container-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.veja-mais {
+    background-color: #25717e;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    text-align: center;
+    font-family: "Open Sans";
+}
+
+.veja-mais:hover {
+    background-color: black
+}
+
+/*AJUDA*/
+
+.background {
+    background-color: #6ca6b0;
+    padding: 40px 0;
+}
+
+.blue-background {
+    background-color: #6ca6b0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.blue-title {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.box {
+    width: calc(33.33% - 20px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+.box h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.doar {
+    display: inline-block;
+    background-color: #25717e;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    font-family: "Open Sans";
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.image-placeholder {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-placeholder img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*BLOG*/
+
+.blog {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.blog h1 {
+    color: #25717e;
+    /* Cor azul */
+    font-size: 60px;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.blog p {
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-family: "josefin sans";
+}
+
+.materias {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.materia {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 23%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-mat img {
+    width: 100%;
+    height: auto;
+}
+
+.info-mat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info-mat h2 {
+    font-size: 1.2em;
+    color: #6ca6b0;
+    margin: 10px 0;
+    font-family: "josefin sans";
+}
+
+.info-mat p {
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.info-mat button {
+    background-color: #25717e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 100px;
+    font-family: "Open Sans";
+}
+
+.info-mat button:hover {
+    background-color: black;
+}
+
+.veja-mais {
+    background-color: #25717e;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1em;
+}
+
+.veja-mais:hover {
+    background-color: black
+}
+
+/*QUIZ*/
+.containerq {
+    background-image: url('quizz.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color:#86BCC6;
+}
+
+.cardd {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 7px 1px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    padding: 20px;
+    text-align: center;
+}
+
+.cardd h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 30px;
+}
+
+.cardd p {
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "josefin sans";
+}
+
+#quiz {
+    border-radius: 50px;
+}
+
+.btn-quiz {
+    display: inline-block;
+    background-color: #25717e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    font-family: "josefin sans";
+}
+
+.btn:hover {
+    background-color: #000000;
+}
+
+    /*PAG DOACOES */
+.finalf {
+    font-size: 25px;
+    font-family: "Open Sans";
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    text-align: center; 
+}
+
+.finalf p{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.finalf img {
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+}
+
+.espaco {
+    background-color: #d4f9ff;
+    width: 100%;
+    height: auto;
+}
+
+.tira h2{
+    font-size: 65px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom: 300px;
+    margin: 10px;
+
+}
+
+.textdoac {
+    font-size: 30px;
+    font-family: "josefin sans";
+    text-align: center;
+    margin-bottom: -2px;
+    margin-right: 150px;
+}
+
+.espaco img {
+    margin: auto;
+    height: 12rem;
+    width: 50rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.cardo-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.cardo {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    flex-shrink: 0;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardo img {
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.cardo h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #25717e;
+}
+
+.cardo p {
+    font-size: 1em;
+    color: #666;
+}
+
+.cardo:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.tira{
+    background-color: #d4f9ff;
+    width: 100%;
+    height: 19rem;
+}    
+.tira img {
+    margin: auto;
+    height: 12rem;
+    width: 50rem;
+    display: flex;
+    align-items: center;
+
+}
+.flecs img{
+    margin-right: 30px;
+
+}
+/* BLOG */
+.containerb{
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 500px;
+margin: 100px;
+}
+
+.containerb0{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-top:12%;
+    }
+    .containerb1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        margin:16%;
+        }
+    .containerb2{
+      
+        display: flex;
+        justify-content: center;
+         align-items: center;
+         height: 500px;
+          margin:12%;
+            }
+.cardb {
+    background-color: #d4d4d4;
+    border-radius: 10px;
+    box-shadow: 0 7px 1px rgba(0.1, 0.1, 0.1, 0.1);
+    width: 700px;
+    padding: 20px;
+    text-align: center;
+
+}
+    
+
+.cardb h2 {
+    margin-top: 0;
+    color:#4d909c;
+    font-size: 30px;
+    font-family:sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.cardb p {
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cardb p{
+    font-family:sans-serif;
+    color: #a8a8a8;
+    font-size: 16px;
+    text-align: left;
+
+}
+.cardb h5{
+    font-size: 20px;
+    font-family: "josefin sans";
+    color: #929292;
+}
+.btn {
+    display: inline-block;
+    background-color: #25717e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 20px;
+}
+
+.btn:hover {
+    background-color: #000000;
+}
+.banner {
+    background-color: #e0f7fa;
+    color: #333;
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+}
+.titulob{
+font-size: 60px;
+font-family:"Poetsen One", sans-serif;
+color:#4d909c;
+}
+
+.buttonb {
+    display: block;
+    background-color:#25717e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 0 20px 20px;
+    border-radius: 4px;
+}
+
+.buttonb:hover {
+    background-color:black;
+}

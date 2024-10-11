@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Texto no inicio da página*/
+.banner {
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #25717e;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+.titulob {
+    text-align: center;
+    font-size: 2rem;
+    color: #25717e;
+}
+
+/*Carousel*/
+.carousel-inner {
+    display: flex; /* Permite o uso de flexbox para centralização */
+    justify-content: space-between; /* Centraliza horizontalmente */
+    height: 500px; /* Altura do carrossel */
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin: auto;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}
+
+.carousel-indicators {
+    bottom: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-indicators button {
+    background-color: #86bcc6;
+    border: none;
+}
+
+.carousel-indicators button.active {
+    background-color: #25717e; 
+}
+
+/* Aumenta o tamanho dos indicadores, se necessário */
+.carousel-indicators button {
+    border-radius: 5px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%;
+    width: 5%;
+}
+
+.carousel-control-next {
+    left: 75%;
+}
+
+.carousel-control-prev {
+    margin-left: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #86bcc6;
+    border-radius: 5px;
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Botão leia Mais */
+.buttonb {
+    background-color: #25717e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: backgroud-color 0.3s ease;
+}
+
+.buttonb:hover {
+    background-color: #86bcc6;
+}
+

@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+header {
+    grid-row: 1;
+}
+
+/*navbar section*/
+
+.custom-navbar {
+    padding: 10px 20px;
+    background-color: #86bcc6;
+}
+
+.navbar-brand {
+    width: 50px;
+    height: auto;
+}
+
+.nav-link {
+    font-size: 18px;
+    margin: 0 15px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link:hover {
+    color: #0056b3;
+}
+
+.btn-outline-primary {
+    border-color: #25717e; 
+    color: #25717e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-outline-primary:hover{
+    background-color: #25717e;
+    color: #fff;
+}
+
+.btn-outline-primary i {
+    font-size: 20px;
+    color: #25717e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-outline-primary:hover i {
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #25717e;
+    border-color: #25717e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: #86bcc6;
+    border-color: #86bcc6;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-brand {
+        margin-bottom: 10px;
+    }
+
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .d-flex .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    .btn-outline-primary, .btn-primary {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .btn-outline-primary i {
+        font-size: 18px;
+    }
+
+    .btn {
+        width: 90%;
+    }
+}
+
+/* Footer */
+footer {
+    display: flex;
+    background-color: #6ca6b0;
+    color: white;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer-wave {
+    width: 100%;
+    height: 100px;
+    background: url('wave.svg') repeat-x;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.containerr {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.footer-logo img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.redes-sociais,
+.telefones,
+.desenvolvimento {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.redes-sociais h3,
+.telefones h3 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons a {
+    display: inline-block;
+    margin: 0 10px;
+} 
+
+.icons img {
+    width: 50px;
+    height: 45px;
+}
+
+.desenvolvimento p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .redes-sociais,
+    .telefones,
+    .desenvolvimento {
+        margin: 20px 0;
+    }
+
+    .Frase, .gatinho img {
+        text-align: center;
+    }
+}
+
+.faq-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "josefin sans";
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.faq-question {
+    font-size: 18px;
+    color: #25717e;
+    cursor: pointer;
+    margin: 0;
+    transition: color 0.3s;
+}
+
+.faq-question:hover {
+    color: #040404;
+}
+
+.faq-answer {
+    font-size: 16px;
+    color: #666;
+    display: none;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+/*Main section*/
+
+main {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 600px) 1fr;
+    padding: 20px;
+    background-color: #e8f3f6;
+}
+
+#infobanner {
+    grid-column: 1 / -1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #25717e;
+}
+
+.add-animal-container {
+    grid-column: 2/3;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    z-index: 2;
+    position: relative;
+}
+
+h2 {
+    color: #25717e;
+    margin-bottom: 20px;
+}
+
+.cadastro {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.cadastro label {
+    font-weight: bold;
+    color: #333;
+}
+
+.cadastro input,
+.cadastro select,
+.cadastro textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.cadastro textarea {
+    height: 100px;
+    resize: none;
+}
+
+.btn-cadastrar {
+    padding: 12px;
+    background-color: #25717e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cadastrar:hover {
+    background-color: #86bcc6;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #a3a3a3;
+    font-style: italic;
+    opacity: 1;
+}
+
+input:focus::placeholder,
+textarea:focus:placeholder {
+    color: #86bcc6;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    .add-animal-container {
+        padding: 20px;
+    }
+
+    .cadastro input, .cadastro select, .cadastro textarea, .cadastro button {
+        font-size: 16px;
+    }
+}
+
+@media (max-widht: 576px) {
+    .add-animal-container {
+        padding: 10px;
+    }
+
+    #image-preview {
+        max-height: 100px;
+    }
+
+    .cadastro input, .cadastro select, .cadastro textarea, .cadastro button {
+        font-size: 14px;
+    }
+
+}
+
+#image-preview-container {
+    margin-top: 15px;
+    text-align: center;
+    display: none;
+}
+
+#image-preview {
+    max-width: 100%;
+    max-height: 200px;
+    border: 2px solid #25717e;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+}
+

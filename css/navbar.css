@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*navbar section*/
+
+.custom-navbar {
+    padding: 10px 20px;
+    background-color: #86bcc6;
+}
+
+.navbar-brand {
+    width: 50px;
+    height: auto;
+}
+
+.nav-link {
+    font-size: 16px; /* Diminuído de 18px para 16px */
+    margin: 0 10px; /* Reduzido o espaçamento */
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link:hover {
+    color: #0056b3;
+}
+
+.btn-outline-primary {
+    border-color: #25717e; 
+    color: #25717e;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 12px; /* Ajustado para diminuir o tamanho */
+    font-size: 14px; /* Font-size ajustado */
+}
+
+.btn-outline-primary:hover {
+    background-color: #25717e;
+    color: #fff;
+}
+
+.btn-outline-danger {
+    margin-right: 6px;
+}
+
+.btn-outline-primary i {
+    font-size: 18px;
+    color: #25717e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-outline-primary:hover i {
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #25717e;
+    border-color: #25717e;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 12px; /* Ajustado para diminuir o tamanho */
+    font-size: 14px; /* Font-size ajustado */
+}
+
+.btn-primary:hover {
+    background-color: #86bcc6;
+    border-color: #86bcc6;
+}
+
+.perfil-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    fill: currentColor;
+}
+
+.navbar .perfil-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px; /* Ajuste de tamanho */
+    height: 20px;
+    margin-right: 6px; /* Reduzido o espaçamento */
+}
+
+.navbar .perfil-text {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar .perfil-link {
+    display: flex;
+    align-items: center;
+    padding: 6px 10px; /* Diminuído o padding */
+    background-color: #007bff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .perfil-link:hover {
+    background-color: #0056b3;
+}
+
+.navbar-toggler {
+    display: block;
+    border: none;
+    background: none;
+}
+
+.fas.fa-bars {
+    font-size: 24px;
+    color: white;
+}
+
+/* Responsividade */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-brand {
+        margin-bottom: 10px;
+    }
+
+    .d-flex {
+        margin-top: 10px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .d-flex .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .btn-outline-primary, .btn-primary {
+        font-size: 12px; /* Font-size ainda menor em telas pequenas */
+        padding: 4px 10px; /* Redução de padding */
+    }
+
+    .btn-outline-primary i {
+        font-size: 16px; /* Ícone menor */
+    }
+
+    .btn {
+        width: 90%;
+    }
+
+    .navbar .perfil-icon {
+        width: 18px; /* Tamanho menor do ícone em telas pequenas */
+        height: 18px;
+        margin-right: 4px;
+    }
+
+    .navbar .perfil-text {
+        font-size: 12px;
+    }
+
+    .navbar .perfil-link {
+        padding: 4px 8px; /* Redução adicional de padding */
+    }
+}
