@@ -19,6 +19,13 @@ body {
   margin: 0;
 }
 
+.Linha {
+  height: 3px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #86bcc6;
+}
+
 .quiz-container {
   background: #ffffff;
   border-radius: 10px;
@@ -55,4 +62,41 @@ button {
 
 button:hover {
   background-color: #1f5f6b;
+}
+
+.resultado-container {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.btn-reiniciar {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #25717e;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-reiniciar:hover {
+  background-color: #1f5f6b;
+}
+
+.Back {
+  margin-bottom: 10px;
+  display: block;
+  text-align: start;
+  border-radius: 30px;
+  color: #86BCC6;
+  width: 20px;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
 }
