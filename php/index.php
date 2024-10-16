@@ -166,7 +166,7 @@
         <div class="cardd">
             <h2>Participe do Quiz!</h2><br>
             <p>Está em dúvida em qual animalzinho escolher? Faça o teste e descubra qual se parece mais com você! </p>
-            <a href="quiz.html" class="btn-quiz">Começar Quiz</a><br><br>
+            <a href="quiz.php" class="btn-quiz">Começar Quiz</a><br><br>
             <img src="../Imagens/quizi.png" alt="" width="220px" id="quiz"><br>
         </div>
     </div>
