@@ -98,9 +98,9 @@ if (isset($_POST['remover_pet'])) {
         <?php
         include 'navbar.php';
         ?>
-
-        
     </header>
+
+    <a href="adocao.php" class="Back">Voltar</a>
 
     <h1>Detalhes do Pet: <?php echo htmlspecialchars($pet['nome']); ?></h1>
 

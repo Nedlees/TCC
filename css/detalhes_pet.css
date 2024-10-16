@@ -133,6 +133,20 @@ button, .btn-remover, .btn-atualizar {
     background-color: #86bcc6;
 }
 
+.Back {
+    margin-bottom: 10px;
+    display: block;
+    text-align: start;
+    border-radius: 30px;
+    color: #86BCC6;
+    width: 50px;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
 @media (max-width: 768px) {
     .detalhes-pet-container {
         padding: 10px; /* Menos padding em telas pequenas */

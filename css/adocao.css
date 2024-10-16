@@ -187,3 +187,17 @@ html, body {
     background-color: #1a4d59;
     transform: scale(0.95);
 }
+
+.Back {
+    margin-bottom: 10px;
+    display: block;
+    text-align: start;
+    border-radius: 30px;
+    color: #86BCC6;
+    width: 50px;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+  }

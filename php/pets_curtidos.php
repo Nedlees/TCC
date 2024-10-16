@@ -35,6 +35,7 @@ $result = $stmt -> get_result();
   <?php include 'navbar.php'; ?>
 </header>
 
+<a href="adocao.php" class="Back">Voltar</a>
 <h1>Bem Vindo a os seus pets curtidos!</h1>
 
 <div class="container-card">

@@ -62,3 +62,15 @@ body {
   margin: 5px 0;
 }
 
+.Back {
+  margin-bottom: 10px;
+  display: block;
+  text-align: start;
+  border-radius: 30px;
+  color: #86BCC6;
+  width: 20px;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}

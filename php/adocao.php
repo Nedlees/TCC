@@ -42,7 +42,7 @@ $result = $conn->query($sql);
   <header>
     <?php include 'navbar.php'; ?>
   </header>
-
+<a href="index.php" class="Back">Voltar</a>
   <h1>Adoção e Doação de Pets</h1>
   <?php if (isset($_SESSION['usuario_id']) && $_SESSION['usuario_id'] !== 'null') : ?>
   <div class="container-btn">
@@ -53,7 +53,7 @@ $result = $conn->query($sql);
   </div>
 
   <div class="Linha"></div>
-
+  
   <body id="body-content">
     <div class="container">
     

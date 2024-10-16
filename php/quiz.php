@@ -30,6 +30,7 @@
   <body>
 
     <div class="quiz-container">
+    <a href="index.php" class="Back"><</a>
       <h2>Descubra Qual pet é ideal para você</h2>
       <br>
 
