@@ -35,7 +35,7 @@ data-bs-ride="carousel">
             <div class="carousel-caption">
                 <h5>Por que gatos 'amassam pãozinho'? Entenda o comportamento do seu felino.</h5>
                 <p>Quem tem um felino em casa provavelmente já viu seu gato amassando pãozinho...</p>
-                <a href="blog_ansiedade.php" class="buttonb">Leia mais</a>
+                <a href="#" class="buttonb">Leia mais</a>
             </div>
         </div>
 
@@ -44,7 +44,7 @@ data-bs-ride="carousel">
             <div class="carousel-caption">
                 <h5>Como lidar com um cachorro com ansiedade? Entenda as causas e como ajudar.</h5>
                 <p>Você já ouviu falar em cachorro com ansiedade? O quadro pode ser entendido como um distúrbio...</p>
-                <a href="#" class="buttonb">Leia mais</a>
+                <a href="blog_ansiedade.php" class="buttonb">Leia mais</a>
             </div>
         </div>
         
