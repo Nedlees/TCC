@@ -19,7 +19,7 @@ include "config.php"
   include 'navbar.php';
   ?>
   </header>
-
+  <a href="blog.php" class="Back">Voltar</a>
   <br>
 
   <h1>Tatarugas Domésticas: o que você precisa saber</h1>
@@ -105,12 +105,12 @@ include "config.php"
     Por isso, consulte um veterinário de confiança para que ele identifique a espécie e prescreva a alimentação correta. Nesse ponto, vale lembrar, ainda, sobre as quantidades para evitar o sobrepeso. Mas os variados tipos de tartarugas podem comer alimentos como:
     </p>
     <p class="texto">
-      <li>Folhas;</li>
-      <li>Frutas;</li>
-      <li>Legumes e verduras em geral;</li>
-      <li>Carnes e minhocas;</li>
-      <li>Peixes e crustáceos;</li>
-      <li>Insetos</li>
+      <li class="lista">Folhas;</li>
+      <li class="lista">Frutas;</li>
+      <li class="lista">Legumes e verduras em geral;</li>
+      <li class="lista">Carnes e minhocas;</li>
+      <li class="lista">Peixes e crustáceos;</li>
+      <li class="lista">Insetos</li>
     </p>
 
     <h2>Como cuidar de uma tartaruga em casa?</h2>

@@ -35,7 +35,7 @@ data-bs-ride="carousel">
             <div class="carousel-caption">
                 <h5>Por que gatos 'amassam pãozinho'? Entenda o comportamento do seu felino.</h5>
                 <p>Quem tem um felino em casa provavelmente já viu seu gato amassando pãozinho...</p>
-                <a href="#" class="buttonb">Leia mais</a>
+                <a href="blog_paozinho.php" class="buttonb">Leia mais</a>
             </div>
         </div>
 

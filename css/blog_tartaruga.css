@@ -55,7 +55,7 @@ h3, h4 {
   padding: 10px;
 }
 
-li {
+.lista {
   font-family: 'Josefin Sans';
   font-weight: bold;
   text-align: start;
@@ -69,4 +69,18 @@ li {
   text-align: center;
   margin-top: 20px;
   font-style: italic;
+}
+
+.Back {
+  margin-bottom: 10px;
+  display: block;
+  text-align: start;
+  border-radius: 30px;
+  color: black;
+  width: 50px;
+  font-size: 16px;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
 }
