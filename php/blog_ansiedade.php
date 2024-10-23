@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destaques</title>
-   <link rel="stylesheet" href="../css/blogansiedade.css">
+   <link rel="stylesheet" href="../css/blog_ansiedade.css">
 </head>
 <body>
     <header>
@@ -13,7 +13,7 @@
         ?>
     </header>
     <br>
-
+<div class="card">
 <img src="../Imagens/dogblog.jpg" alt="Cachorro comendo papel higiênico" width="1000px" height="570px">
 <br>
 <br>
@@ -31,13 +31,13 @@
     O cachorro com ansiedade de separação tem um vínculo tão grande com o tutor, que acaba tornando-se uma dependência. Ao não ser incentivado a fazer coisas sozinho, o peludo se sente perdido e tem medo de ficar longe, quando o tutor passa o dia fora trabalhando, por exemplo. <br><br>Essa situação pode se tornar uma síndrome do abandono. O cachorro com crise de ansiedade sente-se ainda mais frágil e sozinho, desenvolvendo outros problemas de saúde, como depressão, gastrite, crises de vômitos e diminuição da imunidade.  </p>
 <br>
 <h2>2.Outros casos</h2>
-<p>O cachorro ansioso à noite pode ser um sinal de medo de dormir devido a episódios anteriores relacionados a situações de abandono, tortura, agressão e traumas da criação anterior. Além disso, o estresse pode ser a causa desse distúrbio. 
+<p class="pp">O cachorro ansioso à noite pode ser um sinal de medo de dormir devido a episódios anteriores relacionados a situações de abandono, tortura, agressão e traumas da criação anterior. Além disso, o estresse pode ser a causa desse distúrbio. 
 
 O cachorro ansioso para comer devora os grãos de ração em pouco tempo, permanecendo agitado e esperando por mais. O comportamento agrava-se quando o cãozinho fica agressivo e tenta pegar comida humana ou de outros pets da casa.</p>
 <br>
 
 <h2>3.Como diminuir a ansiedade nos peludos?</h2>
-<p>No geral, para diminuir a ansiedade dos pets, é preciso que eles tenham confiança  e sejam preparados para serem independentes. Ao seguirem uma rotina, eles já estarão acostumados com os momentos em que estarão sozinhos e com o tutor, por exemplo. 
+<p class="pp">No geral, para diminuir a ansiedade dos pets, é preciso que eles tenham confiança  e sejam preparados para serem independentes. Ao seguirem uma rotina, eles já estarão acostumados com os momentos em que estarão sozinhos e com o tutor, por exemplo. 
 <br>
     Os passeios diários também são ótimos para reduzir o estresse e a ansiedade. Crie o hábito de levá-lo para dar uma voltinha na rua, gastar as energias e interagir com outros cachorros. Esse momento do dia pode ser feito várias vezes, quanto você achar necessário. 
 <br>
@@ -46,7 +46,7 @@ O cachorro ansioso para comer devora os grãos de ração em pouco tempo, perman
     Faça o teste para ver como o cachorro com ansiedade comporta-se e com quais soluções ele está se adaptando. Trabalhe desde cedo a autonomia do seu amigo de quatro patas e estimule-o a tentar fazer as coisas sozinho, como alimentar-se e brincar. </p>
 <br>
 <h2>4.Tratamento medicamentoso</h2> 
-<p>Esteja atento para as melhorias na ansiedade do seu companheiro. Se notar que ainda não houve mudança, consulte um médico-veterinário para entender quais podem ser os tratamentos alternativos e o que pode ser feito. 
+<p class="pp">Esteja atento para as melhorias na ansiedade do seu companheiro. Se notar que ainda não houve mudança, consulte um médico-veterinário para entender quais podem ser os tratamentos alternativos e o que pode ser feito. 
 
     Em quadros mais graves, é provável que o veterinário indique medicamentos, como calmante para o cachorro. Atualmente, inclusive, já existem opções fitoterápicas menos fortes para o organismo, mas ainda eficazes. 
     
@@ -56,6 +56,7 @@ O cachorro ansioso para comer devora os grãos de ração em pouco tempo, perman
 
 <img src="../Imagens/pugblog.jpg" alt="Cachorro na grama olhando para a câmera"  width="900px" height="570px"></center>
 <br>
+</div>
 <footer>
     <?php 
     include "footer.php"
