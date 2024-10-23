@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destaques</title>
-    <link rel="stylesheet" href="blogpao.css">
+    <link rel="stylesheet" href="../css/blogpao.css">
 </head>
-<body>
+<center>
     <header>
         <?php 
         include "navbar.php"
         ?>
     </header>
     <br>
-<center> 
+<center>
 <img src="../Imagens/dogblog.jpg" alt="" width="1000px" height="570px">
 <br>
 <br>
@@ -43,7 +43,8 @@ Esse comportamento começa desde cedo e pode continuar até a fase idosa, mas, a
 Se seu gato não amassa pãozinho, ele pode ronronar, pedir para brincar ou simplesmente se sentar ao seu lado. Cada animal é único e tem jeitos próprios de se expressar.
 Agora, se seu pet costumava amassar pãozinho e parou de uma hora para outra, é preciso prestar atenção: ele pode estar estressado ou incomodado com alguma situação. Felinos são bem adaptados à rotina e, por isso, qualquer novidade pode causar desconforto, como a troca de ração, mudança de casa ou chegada de um novo membro na família. Nesse caso, é importante consultar um veterinário e investigar a fonte do problema o mais rápido possível.</p>
 
-<p>Referências: www.whiskas.com.br</p>
+<p><strong>Referências: www.whiskas.com.br</strong></p></div>
+</center>
 <footer>
     <?php 
     include "footer.php"
