@@ -53,7 +53,7 @@ data-bs-ride="carousel">
             <div class="carousel-caption">
                 <h5>Conheça as tartarugas domésticas: Curiosidades sobre esses animais casca-grossa.</h5>
                 <p>Se você quer um animal dócil e bem tranquilo para se ter em casa, a tartaruga doméstica é uma ótima escolha...</p>
-                <a href="#" class="buttonb">Leia mais</a>
+                <a href="Blog_tartaruga.php" class="buttonb">Leia mais</a>
             </div>
         </div>
         
