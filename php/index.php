@@ -124,7 +124,7 @@
                 </div>
                 <div class="info-mat">
                     <h2>Por que gatos 'amassam pãozinho'? Entenda o comportamento do seu felino</h2>
-                    <button>Ver</button>
+                    <button><a href="blog_paozinho.php">Ver</a></button>
                 </div>
             </div>
             <div class="materia">
@@ -133,7 +133,7 @@
                 </div>
                 <div class="info-mat">
                     <h2>Como lidar com um cachorro com ansiedade? Entenda as causas e como ajudar. </h2>
-                    <button>Ver</button>
+                    <button><a href="blog_ansiedade.php">Ver</a></button>
                 </div>
             </div>
             <div class="materia">
@@ -142,7 +142,7 @@
                 </div>
                 <div class="info-mat">
                     <h2> Conheça as tartarugas domésticas: Curiosidades sobre esses animais casca-grossa.</h2>
-                    <button>Ver</button>
+                    <button><a href="blog_tartaruga.php">Ver</a></button>
                 </div>
             </div>
             <div class="materia">
