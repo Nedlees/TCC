@@ -116,7 +116,7 @@ data-bs-ride="carousel">
             <div class="carousel-caption">
                 <h5>Porquinho da Índia: 12 Curiosidades que você deveria saber sobre esse bichinho.</h5>
                 <p>Porquinho da Índia é um animal dócil, extremamente carinhoso e, que é um tanto quanto tímido em algumas situações...</p>
-                <a href="#" class="buttonb">Leia mais</a>
+                <a href="blog_porquinho.php" class="buttonb">Leia mais</a>
             </div>
         </div>
 

@@ -44,6 +44,16 @@ body {
   object-fit: cover;
 }
 
+.divisao {
+  display: flex;
+  justify-content: center;
+}
+
+.divisao img {
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 .texto {
   font-family: 'Josefin Sans';
   font-size: 19px;
