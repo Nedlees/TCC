@@ -26,7 +26,7 @@ include "config.php";
 
   <div class="container-blog">
 
-    <img src="https://s2-g1.glbimg.com/C_9z3CqdK_DDYD83mkQjhbbBAxI=/0x0:1700x1065/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/y/f/tbOjIlSWGvrfco3JlDeQ/imagem-g1.png" alt="">
+    <img src="https://jornalpanoramaminas.com.br/site/wp-content/uploads/2024/07/1-21.jpeg" alt="">
     <br>
     <p class="texto">
       A pesquisadora brasileira Lauren Dalat de Souza Coelho, de 25 anos, esteve em Londres, em junho, para receber o

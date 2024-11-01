@@ -19,13 +19,15 @@ include "config.php"
   include 'navbar.php';
   ?>
   </header>
+
   <a href="blog.php" class="Back">Voltar</a>
-  <br>
 
   <h1>Tatarugas Domésticas: o que você precisa saber</h1>
 
   <div class="container-blog">
+
     <img src="../Imagens/Tartaruga.jpeg" alt="Tartaruga">
+
     <p class="texto">
       Se você quer um animal dócil e bem tranquilo para se ter em casa, a tartaruga doméstica é uma ótima
       escolha. Então, se quer fugir dos padrões de pets tradicionais, essa é a hora de descobrir como criá-la e as
@@ -40,7 +42,6 @@ include "config.php"
 <br><br>
       É hora de entrar a fundo no reino animal e desvendar os mistérios sobre esse assunto. Vem com a gente e descubra
       se tartaruga pode ser domesticada e qual é a melhor forma de cuidar desse pet.</p>
-<br>
 
   <h3>Qual é a diferença entre tartaruga, cágado e jabuti?</h3>
 
@@ -54,8 +55,6 @@ include "config.php"
     Já o cágado, em seu habitat natural, vive bem tanto na água quanto na terra. Diferentemente da tartaruga doméstica, o casco tem formato achatado e mais oval, e o pescoço alongado. Não podemos esquecer das patas: elas possuem membranas entre os dedos para facilitar o nado, o que não existe nas tartarugas domésticas.
     <br><br>
     Por fim, o jabuti é o que mais se distancia em aparência da tartaruga. O casco dessa espécie é muito mais alto e mais pesado do que o das suas colegas tartaruga e cágado. Sua alimentação é essencialmente herbívora, e esse animal vive apenas em terra.</p>
-
-    <br>
     
     <h3>Quantas e quais espécies de tartaruga existem?</h3>
 
@@ -135,6 +134,6 @@ include "config.php"
   include 'footer.php';
   ?>
   </footer>
-</body>
 
+</body>
 </html>

@@ -216,7 +216,7 @@ data-bs-ride="carousel">
         </div>
         
         <div class="carousel-item">
-            <img src="https://s2-g1.glbimg.com/C_9z3CqdK_DDYD83mkQjhbbBAxI=/0x0:1700x1065/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/y/f/tbOjIlSWGvrfco3JlDeQ/imagem-g1.png" class="w-100">
+            <img src="https://jornalpanoramaminas.com.br/site/wp-content/uploads/2024/07/1-21.jpeg" class="w-100">
             <div class="carousel-caption">
             <h5>Brasileira ganha prêmio por projeto <br> que propõe substituir animais em teste de cosmético.</h5>
             <p>A pesquisa de Lauren demonstrou que as células-tronco dentárias podem <br> ser usadas para identificar substâncias...</p>
