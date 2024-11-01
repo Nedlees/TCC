@@ -38,7 +38,7 @@
                 <div class="info-animal">
                     <h2>Pipoca</h2>
                     <p>Macho | 6 anos | Porte Médio | Castrado</p>
-                    <button><b>Ver</b></button>
+                    <button onclick="window.location.href='detalhes_pet.php?id=3'"><b>Ver</b></button>
                 </div>
             </div>
             <div class="animal">
@@ -58,7 +58,7 @@
                 <div class="info-animal">
                     <h2>Neemias Black</h2>
                     <p>Macho | 5 anos | Porte Médio | Castrado</p>
-                    <button><b>Ver</b></button>
+                    <button onclick="window.location.href='detalhes_pet.php?id=5'"><b>Ver</b></button>
                 </div>
             </div>
             <div class="animal">
@@ -68,7 +68,7 @@
                 <div class="info-animal">
                     <h2>Anny Cookie</h2>
                     <p>fêmea | 2 anos | Porte Médio | Castrado</p>
-                    <button><b>Ver</b></button>
+                    <button onclick="window.location.href='detalhes_pet.php?id=4'"><b>Ver</b></button>
                 </div>
             </div>
         </div>
@@ -98,7 +98,7 @@
             <div class="box">
                 <h2>Adote</h2>
                 <p>Conheça nossos animais disponíveis para adoção.</p>
-                <a href="#" class="doar">Adotar Agora</a>
+                <a href="adocao.php" class="doar">Adotar Agora</a>
                 <div class="image-placeholder">
                     <img src="../Imagens/adotar.png" alt="">
                 </div>
@@ -124,7 +124,8 @@
                 </div>
                 <div class="info-mat">
                     <h2>Por que gatos 'amassam pãozinho'? Entenda o comportamento do seu felino</h2>
-                    <button><a href="blog_paozinho.php">Ver</a></button>
+                    <a href="blog_paozinho.php"><button>Ver</button></a>
+                    <br>
                 </div>
             </div>
             <div class="materia">
@@ -133,7 +134,8 @@
                 </div>
                 <div class="info-mat">
                     <h2>Como lidar com um cachorro com ansiedade? Entenda as causas e como ajudar. </h2>
-                    <button><a href="blog_ansiedade.php">Ver</a></button>
+                    <a href="blog_ansiedade.php"><button>Ver</button></a>
+                    <br>
                 </div>
             </div>
             <div class="materia">
@@ -142,7 +144,8 @@
                 </div>
                 <div class="info-mat">
                     <h2> Conheça as tartarugas domésticas: Curiosidades sobre esses animais casca-grossa.</h2>
-                    <button><a href="blog_tartaruga.php">Ver</a></button>
+                    <a href="blog_tartaruga.php"><button>Ver</button></a>
+                    <br>
                 </div>
             </div>
             <div class="materia">
@@ -153,13 +156,13 @@
                 <div class="info-mat">
                     <h2>Animais e fogos de artifício: como lidar com o medo dos pets nessa época do ano. </h2>
 
-                    <button><a href=""></a></button>
+                    <a href=""><button>Ver</button></a>
                     <br>
                 </div>
             </div>
         </div>
         <br>
-        <button class="veja-mais">Mais...</button>
+        <button onclick="window.location.href='blog.php'" class="veja-mais">Mais...</button>
     </section>
     <!--Quiz-->
     <div class="containerq">

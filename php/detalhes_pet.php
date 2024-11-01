@@ -17,10 +17,10 @@ $usuarioId = $_SESSION['usuario_id'];
 if (isset($_GET['id'])) {
     $animalId = $conn->real_escape_string($_GET['id']);
 
-    $sqlPet = "SELECT a.id, a.nome, a.tipo, a.idade, a.descricao, a.imagem, a.contato, a.sexo, u.nome AS nome_usuario, u.email AS email_usuario 
-        FROM animais a
-        JOIN usuarios u ON a.usuario_id = u.id 
-        WHERE a.id = '$animalId'";
+    $sqlPet = "SELECT a.id, a.nome, a.tipo, a.idade, a.descricao, a.imagem, a.contato, a.sexo, a.usuario_id, u.nome AS nome_usuario, u.email AS email_usuario 
+           FROM animais a
+           JOIN usuarios u ON a.usuario_id = u.id 
+           WHERE a.id = '$animalId'";
 
     $resultPet = $conn->query($sqlPet);
 
@@ -37,7 +37,7 @@ if (isset($_GET['id'])) {
     die('Id do pet não encontrado.');
 }
 
-$isOwner = $usuarioId == $usuarioId;
+$isOwner = $usuarioId == $pet['usuario_id'];
 
 // Inicializa a variável $curtido
 $curtido = false;

@@ -18,6 +18,8 @@ include "config.php";
   ?>
 </header>
 
+<a href="blog.php" class="Back">Voltar</a>
+
 <div class="container-blog">
   <h1>Por que os cavalos relincham?</h1>
 

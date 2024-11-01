@@ -16,20 +16,6 @@ body {
   background-image: url("https://firebasestorage.googleapis.com/v0/b/instagrama-76a12.appspot.com/o/images%2FDesign%20sem%20nome%20(1).png?alt=media&token=d80bd49f-63c0-41e5-a1d8-bdac59eb29cc");
 }
 
-.Back {
-  margin-bottom: 10px;
-  display: block;
-  text-align: start;
-  border-radius: 30px;
-  color: black;
-  width: 50px;
-  font-size: 16px;
-  padding: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 .container-blog {
   width: 80%;
   border: 1px solid #ccc;
@@ -62,23 +48,11 @@ body {
   font-family: 'Josefin Sans';
   font-size: 19px;
   text-align: start;
-  margin-left: 15rem;
-  margin-right: 15rem;
 }
 
 h3, h4 {
   text-align: start;
   padding: 10px;
-}
-
-.lista {
-  font-family: 'Josefin Sans';
-  font-weight: bold;
-  text-align: center;
-  margin-top: 22px;
-  margin-left: 15rem;
-  margin-right: 15rem;
-  font-style: italic;
 }
 
 .referencia {

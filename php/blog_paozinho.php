@@ -12,6 +12,9 @@
         include "navbar.php"
         ?>
 </header>
+
+<a href="blog.php" class="Back">Voltar</a>
+
 <br>
 <div class="card">
     <img src="../Imagens/Gato Pãozinho.png" alt="" width="1000px" height="570px">

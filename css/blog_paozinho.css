@@ -13,6 +13,20 @@ body {
     background-image: url("https://firebasestorage.googleapis.com/v0/b/instagrama-76a12.appspot.com/o/images%2FDesign%20sem%20nome%20(1).png?alt=media&token=d80bd49f-63c0-41e5-a1d8-bdac59eb29cc");
 }
 
+.Back {
+    margin-bottom: 10px;
+    display: block;
+    text-align: start;
+    border-radius: 30px;
+    color: black;
+    width: 50px;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 h1 {
     font-family: "josefin sans";
 }
@@ -56,14 +70,15 @@ h2 {
 }
 
 .card {
-    width: 80%; /* Ajuste do tamanho do card */
+    width: 80%;
+    /* Ajuste do tamanho do card */
     background-color: #e6e0d9;
     border: 1px solid #ccc;
     border-radius: 15px;
     margin: 15px;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     margin-left: 10%;
     padding: 15px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);

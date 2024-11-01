@@ -79,131 +79,132 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Pets para Adoção</title>
-    <link rel="stylesheet" href="../css/cadastro_pet.css">
-    <script>
-        function formatarTelefone(telefone) {
-            telefone = telefone.replace(/\D/g, ''); // Remove caracteres não numéricos
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Pets para Adoção</title>
+  <link rel="stylesheet" href="../css/cadastro_pet.css">
+  <script>
+  function formatarTelefone(telefone) {
+    telefone = telefone.replace(/\D/g, ''); // Remove caracteres não numéricos
 
-            if (telefone.length > 6) {
-                return `(${telefone.substring(0, 2)}) ${telefone.substring(2, 7)}-${telefone.substring(7, 11)}`;
-            } else if (telefone.length > 2) {
-                return `(${telefone.substring(0, 2)}) ${telefone.substring(2)}`;
-            } else {
-                return telefone;
-            }
+    if (telefone.length > 6) {
+      return `(${telefone.substring(0, 2)}) ${telefone.substring(2, 7)}-${telefone.substring(7, 11)}`;
+    } else if (telefone.length > 2) {
+      return `(${telefone.substring(0, 2)}) ${telefone.substring(2)}`;
+    } else {
+      return telefone;
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('imagem').addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      const preview = document.getElementById('image-preview');
+      const previewContainer = document.getElementById('image-preview-container');
+
+      if (file) {
+        const reader = new FileReader();
+
+        reader.onload = function(e) {
+          preview.src = e.target.result;
+          previewContainer.style.display = 'block';
+          preview.style.display = 'block';
         }
 
-        document.addEventListener('DOMContentLoaded', function () {
-            document.getElementById('imagem').addEventListener('change', function (event) {
-                const file = event.target.files[0];
-                const preview = document.getElementById('image-preview');
-                const previewContainer = document.getElementById('image-preview-container');
+        reader.readAsDataURL(file);
+      } else {
+        previewContainer.style.display = 'none';
+        preview.style.display = 'none';
+      }
+    });
 
-                if (file) {
-                    const reader = new FileReader();
-
-                    reader.onload = function (e) {
-                        preview.src = e.target.result;
-                        previewContainer.style.display = 'block';
-                        preview.style.display = 'block';
-                    }
-
-                    reader.readAsDataURL(file);
-                } else {
-                    previewContainer.style.display = 'none';
-                    preview.style.display = 'none';
-                }
-            });
-
-            const contatoInput = document.getElementById("contato");
-            contatoInput.addEventListener("input", function () {
-                const formatted = formatarTelefone(this.value);
-                this.value = formatted; // Atualiza o valor do campo com a formatação
-            });
-        });
-    </script>
+    const contatoInput = document.getElementById("contato");
+    contatoInput.addEventListener("input", function() {
+      const formatted = formatarTelefone(this.value);
+      this.value = formatted; // Atualiza o valor do campo com a formatação
+    });
+  });
+  </script>
 </head>
 
 <body>
 
-    <header>
-        <?php include 'navbar.php' ?>
-    </header>
+  <header>
+    <?php include 'navbar.php' ?>
+  </header>
 
-    <main>
+  <a href="adocao.php" class="back">Voltar</a>
 
-        <h1 id="infobanner">Colocar Pet para Adoção</h1>
+  <h1 id="infobanner">Colocar Pet para Adoção</h1>
 
-        <div class="add-animal-container">
+  <section id="container-form">
 
-            <section class="add-animal">
-                <h2>Informações do Pet</h2>
+    <div class="add-animal-container">
 
-                <form action="cadastro_animal.php" method="POST" enctype="multipart/form-data" class="cadastro">
+      <section class="add-animal">
+        <h2>Informações do Pet</h2>
 
-                    <label for="imagem">Imagem do Pet:</label>
-                    <input type="file" name="imagem" id="imagem" required>
+        <form action="cadastro_animal.php" method="POST" enctype="multipart/form-data" class="cadastro">
 
-                    <div id="image-preview-container" style="display: none;">
-                        <img src="" alt="Pré visualização da imagem" id="image-preview" style="max-width: 100%; max-height: 200px;">
-                    </div>
+          <label for="imagem">Imagem do Pet:</label>
+          <input type="file" name="imagem" id="imagem" required>
 
-                    <br><br>
+          <div id="image-preview-container" style="display: none;">
+            <img src="" alt="Pré visualização da imagem" id="image-preview" style="max-width: 100%; max-height: 200px;">
+          </div>
 
-                    <label for="nome"><b>Nome do Pet:</b></label>
-                    <input type="text" id="nome" name="nome" placeholder="Digite o nome do pet" required>
+          <br><br>
 
-                    <br><br>
+          <label for="nome"><b>Nome do Pet:</b></label>
+          <input type="text" id="nome" name="nome" placeholder="Digite o nome do pet" required>
 
-                    <label for="tipo"><b>Tipo do Pet:</b></label>
-                    <input type="text" name="tipo" id="tipo" required>
+          <br><br>
 
-                    <br><br>
+          <label for="tipo"><b>Tipo do Pet:</b></label>
+          <input type="text" name="tipo" id="tipo" required>
 
-                    <label for="idade"><b>Idade do Pet:</b></label>
-                    <select name="idade" id="idade" required>
-                        <option value="selecionar">-Não Selecionado-</option>
-                        <option value="Filhote">Filhote</option>
-                        <option value="Adulto">Adulto</option>
-                        <option value="Idoso">Idoso</option>
-                    </select>
+          <br><br>
 
-                    <br><br>
+          <label for="idade"><b>Idade do Pet:</b></label>
+          <select name="idade" id="idade" required>
+            <option value="selecionar">-Não Selecionado-</option>
+            <option value="Filhote">Filhote</option>
+            <option value="Adulto">Adulto</option>
+            <option value="Idoso">Idoso</option>
+          </select>
 
-                    <label for="sexo"><b>Sexo do Pet:</b></label>
-                    <select name="sexo" id="sexo" required>
-                        <option value="selecionar">-Não Selecionado-</option>
-                        <option value="macho">Macho</option>
-                        <option value="femea">Fêmea</option>
-                    </select>
+          <br><br>
 
-                    <br><br>
+          <label for="sexo"><b>Sexo do Pet:</b></label>
+          <select name="sexo" id="sexo" required>
+            <option value="selecionar">-Não Selecionado-</option>
+            <option value="macho">Macho</option>
+            <option value="femea">Fêmea</option>
+          </select>
 
-                    <label for="descricao"><b>Descrição do Pet:</b></label>
-                    <textarea name="descricao" id="descricao" placeholder="Descreva o pet" required></textarea>
+          <br><br>
 
-                    <br><br>
+          <label for="descricao"><b>Descrição do Pet:</b></label>
+          <textarea name="descricao" id="descricao" placeholder="Descreva o pet" required></textarea>
 
-                    <label for="contato"><b>Telefone para Contato:</b></label>
-                    <input type="text" name="contato" id="contato" placeholder="(DD) 12345-6789" maxlength="15" required>
+          <br><br>
 
-                    <br><br>
+          <label for="contato"><b>Telefone para Contato:</b></label>
+          <input type="text" name="contato" id="contato" placeholder="(DD) 12345-6789" maxlength="15" required>
 
-                    <button type="submit" class="btn-cadastrar">Cadastrar Pet</button>
+          <br><br>
 
-                  </form>
+          <button type="submit" class="btn-cadastrar">Cadastrar Pet</button>
 
-        </div>
-        </section>
+        </form>
 
-    </main>
-
-    <footer>
-        <?php include 'footer.php'; ?>
-    </footer>
+    </div>
+  </section>
+  </section>
+  <br>
+  <footer>
+    <?php include 'footer.php'; ?>
+  </footer>
 
 </body>
 

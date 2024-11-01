@@ -3,21 +3,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+:root {
+    --cor-principal: #25717e;
+    --cor-secundaria: #86bcc6;
+    --cor-fundo: #f5f5f5;
+    --cor-texto: #333333;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*Texto no inicio da página*/
-.banner {
-    text-align: center;
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
 }
+
+/*Texto no inicio da página*/
 
 .banner h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #25717e;
+}
+
+.banner {
+    padding: 40px 20px;
+    margin: 20px 0;
+    text-align: center;
 }
 
 .banner p {
@@ -39,20 +55,24 @@
 
 .carousel-inner img {
     height: 100%;
-    width: 100%;
+    width: 500px;
     object-fit: contain;
     margin: auto;
 }
 
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
+.carousel-caption p {
+    margin-bottom: 20px; /* Adiciona um espaço entre a legenda e o botão */
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-item {
+    margin-bottom: 30px; /* Espaçamento entre os itens do carrossel */
 }
 
 .carousel-caption h5 {
+    font-weight: bold;
     font-size: 1.5rem;
 }
 
@@ -109,16 +129,18 @@
 
 /* Botão leia Mais */
 .buttonb {
-    background-color: #25717e;
+    background-color: var(--cor-principal);
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px; /* Aumenta o tamanho do botão */
     border: none;
     border-radius: 5px;
     text-decoration: none;
-    transition: backgroud-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
 }
 
 .buttonb:hover {
-    background-color: #86bcc6;
+    background-color: var(--cor-secundaria);
+    transform: scale(1.05); /* Efeito de aumento no hover */
 }
 
