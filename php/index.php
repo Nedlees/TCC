@@ -48,7 +48,7 @@
                 <div class="info-animal">
                     <h2>Antônio Caranguejo</h2>
                     <p>Macho | 7 anos | Porte Médio | Castrado</p>
-                    <button onclick="window.location.href='detalhes_pet.php?id=1'">Ver</button>
+                    <button onclick="window.location.href='detalhes_pet.php?id=1'"><b>Ver</b></button>
                 </div>
             </div>
             <div class="animal">
@@ -89,7 +89,7 @@
             <div class="box">
                 <h2>Doação</h2>
                 <p>Faça sua doação para ajudar nossos animais!</p>
-                <a href="#" class="doar">Doar Agora</a>
+                <a href="doacoes.php" class="doar">Doar Agora</a>
                 <div class="image-placeholder">
                     <img src="../Imagens/doar.png" alt="">
                 </div>
@@ -107,7 +107,7 @@
             <div class="box">
                 <h2>Sobre nós</h2>
                 <p>Venha conhecer o trabalho do Petfinder.</p>
-                <a href="#" class="doar">Conhecer agora</a>
+                <a href="sobrenos.php" class="doar">Conhecer agora</a>
                 <div class="image-placeholder">
                     <img src="../Imagens/sobre.png" alt="">
                 </div>
@@ -153,7 +153,7 @@
                 <div class="info-mat">
                     <h2>Animais e fogos de artifício: como lidar com o medo dos pets nessa época do ano. </h2>
 
-                    <button>Ver</button>
+                    <button><a href=""></a></button>
                     <br>
                 </div>
             </div>

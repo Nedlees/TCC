@@ -133,6 +133,14 @@ p {
     text-decoration: none;
 }
 
+.info-animal button a,
+.info-mat button a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+
+
 .info-animal button:hover {
     background-color: black;
 }

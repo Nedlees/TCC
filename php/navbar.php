@@ -29,6 +29,9 @@ require_once 'config.php';
 
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="index.php" class="nav-link">Home</a>
+          </li>
           <li class="nav-item">
             <a href="adocao.php" class="nav-link">Adote</a>
           </li>
@@ -37,9 +40,6 @@ require_once 'config.php';
           </li>
           <li class="nav-item">
             <a href="doacoes.php" class="nav-link">Ajude</a>
-          </li>
-          <li class="nav-item">
-            <a href="cadastro_animal.php" class="nav-link">Doar</a>
           </li>
           <li class="nav-item">
             <a href="blog.php" class="nav-link">Blog</a>

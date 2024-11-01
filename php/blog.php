@@ -125,7 +125,7 @@ data-bs-ride="carousel">
             <div class="carousel-caption">
                 <h5>Por que os cachorros lambem os donos? Será mesmo que é uma demonstração de carinho?</h5>
                 <p>Se você é tutor de um cãozinho, sabe que ele adora dar “lambeijos”. Mas, por que cachorros lambem os donos?...</p>
-                <a href="#" class="buttonb">Leia mais</a>
+                <a href="blog_carinho.php" class="buttonb">Leia mais</a>
             </div>
         </div>
         
@@ -134,7 +134,7 @@ data-bs-ride="carousel">
             <div class="carousel-caption">
                 <h5>Por que os cavalos relincham? Saiba como interpretar os sons emitidos pelos cavalos.</h5>
                 <p>Não são apenas os humanos que fazem uso das cordas vocais e dos músculos faciais para transmitir mensagens...</p>
-                <a href="#" class="buttonb">Leia mais</a>
+                <a href="blog_cavalo.php" class="buttonb">Leia mais</a>
             </div>
         </div>
     </div>

@@ -48,6 +48,8 @@ body {
   font-family: 'Josefin Sans';
   font-size: 19px;
   text-align: start;
+  margin-left: 15rem;
+  margin-right: 15rem;
 }
 
 h3, h4 {
@@ -58,8 +60,10 @@ h3, h4 {
 .lista {
   font-family: 'Josefin Sans';
   font-weight: bold;
-  text-align: start;
-  margin-top: 20px;
+  text-align: center;
+  margin-top: 22px;
+  margin-left: 15rem;
+  margin-right: 15rem;
   font-style: italic;
 }
 
