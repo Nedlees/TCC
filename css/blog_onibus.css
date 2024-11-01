@@ -10,9 +10,7 @@
 }
 
 body {
-  display: grid;
   min-height: 100vh;
-  grid-template-rows: 1fr auto;
   background-image: url("https://firebasestorage.googleapis.com/v0/b/instagrama-76a12.appspot.com/o/images%2FDesign%20sem%20nome%20(1).png?alt=media&token=d80bd49f-63c0-41e5-a1d8-bdac59eb29cc");
 }
 
@@ -58,9 +56,6 @@ body {
   font-family: 'Josefin Sans';
   font-size: 19px;
   text-align: start;
-}
-
-p {
   margin-right: 20rem;
   margin-left: 20rem;
 }

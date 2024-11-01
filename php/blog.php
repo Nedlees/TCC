@@ -67,7 +67,7 @@ data-bs-ride="carousel">
                 <p>O fim de ano é um momento de alegria e comemoração, porém, isso é para os humanos, que em grande
                 parte...</p>
                 <br>
-                <a href="#" class="buttonb">Leia mais</a>
+                <a href="blog_fogos.php" class="buttonb">Leia mais</a>
             </div>
         </div>
     </div>

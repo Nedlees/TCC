@@ -49,7 +49,7 @@ include "config.php";
 
     <h3>Células-tronco dentárias</h3>
 
-    <p>
+    <p class="texto">
       Bacharel em Farmácia e mestranda do Programa de Pós-Graduação em Ciências Farmacêuticas da Universidade Federal de
       Goiás (UFG), Lauren apresentou projeto que substitui testes em animais na indústria de cosméticos com um modelo de
       testagem baseado em células-tronco extraídas de dentes.
@@ -68,7 +68,7 @@ include "config.php";
 
     <h3>Método mais confiável e ético</h3>
 
-    <p>
+    <p class="texto">
       Lauren faz parte de um grupo de pesquisa dedicado ao estudo de alternativas para testes com animais, que recebe
       orientação da professora Marize Campos Valadares, no Laboratório de Ensino e Pesquisa em Toxicologia In Vitro da
       Faculdade de Farmácia da UFG (Tox In-FF/UFG).
@@ -89,7 +89,7 @@ include "config.php";
 
     <h3>Testagem mais realista e sem animais</h3>
 
-    <p>
+    <p class="texto">
       Promulgada em 23 de fevereiro de 2023, a Resolução nº 58, do CONCEA – Conselho Nacional de Controle de
       Experimentação Animal, proibiu o “uso de animais vertebrados em pesquisa científica, desenvolvimento e controle de
       produtos de higiene pessoal, cosméticos e perfumes que utilizem em suas formulações ingredientes ou compostos com
