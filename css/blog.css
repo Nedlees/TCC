@@ -25,9 +25,11 @@ body {
 /*Texto no inicio da página*/
 
 .banner h1 {
-    font-size: 2.5rem;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: bold;
     margin-bottom: 20px;
-    color: #25717e;
+    color: #86bcc6;
 }
 
 .banner {

@@ -21,6 +21,7 @@
         <p>Descubra dicas, notícias e informações sobre o mundo dos pets!</p>
     </div>
 </main>
+
 <h1 class="titulob">Destaques</h1>
 
 <div class="carousel slide"

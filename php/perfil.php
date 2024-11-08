@@ -123,7 +123,7 @@ $usuario = $result->fetch_assoc();
         <button type="submit" class="btn-atualizar">Atualizar</button>
         <br><br>
 
-        <a href="logout.php" class="btn-logout">Sair</a>
+        <a href="logout.php" class="btn-logout-perfil">Sair</a>
       </form>
 
     </div>

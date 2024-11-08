@@ -18,7 +18,7 @@ require_once 'config.php';
   <nav class="navbar navbar-expand-lg custom-navbar">
     <div class="container">
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="fas fa-bars"></span> <!-- Ícone de hambúrguer do Font Awesome -->
       </button>
@@ -29,7 +29,7 @@ require_once 'config.php';
 
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
-        <li class="nav-item">
+          <li class="nav-item">
             <a href="index.php" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
@@ -56,16 +56,37 @@ require_once 'config.php';
           </svg>
           Perfil
         </a>
-        <a href="logout_confirm.php" class="btn btn-outline-danger">
-          <i class="fas fa-sign-out-alt perfil-icon"></i>Sair</a>
+        <!-- Botão para abrir o modal de logout -->
+        <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#logoutModal">
+          <i class="fas fa-sign-out-alt perfil-icon"></i> Sair
+        </button>
         <?php else: ?>
         <a href="login.php" class="btn btn-outline-primary me-2">Login</a>
         <a href="cadastro.php" class="btn btn-primary">Cadastrar-se</a>
         <?php endif; ?>
       </div>
     </div>
+  </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content custom-modal">
+        <div class="modal-header">
+          <h5 class="modal-title" id="logoutModalLabel">Confirmação de Logout</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Tem certeza de que deseja sair?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <a href="logout.php" class="btn btn-danger">Confirmar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
